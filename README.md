@@ -1,5 +1,5 @@
 # TodoApp-Flask-Python
-Todo App build in Python Flask.
+Todo App (Python Flask).
 
 link to the App : 
 http://sanskrut-interns.el.r.appspot.com
