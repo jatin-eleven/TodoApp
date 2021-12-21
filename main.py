@@ -110,7 +110,7 @@ def home():
             todo = Todo(title=title, desc=desc, date_created=date_time, user_id=current_user.id)
             db.session.add(todo)
             db.session.commit()
-            flash("Note Added!", category="success")
+            flash("Todo Added!", category="success")
     
     print(" >> Current user : ", current_user)
     # print(" >> Current user id : ", current_user.id)
