@@ -28,8 +28,10 @@ db = SQLAlchemy(app)
 oauth = OAuth(app)
 
 app.config['SECRET_KEY'] = "THIS SHOULD BE SECRET"
-app.config['GOOGLE_CLIENT_ID'] = "731593533571-n0to7imjmop87i1t69tv6ogiu7d0qrkf.apps.googleusercontent.com"
-app.config['GOOGLE_CLIENT_SECRET'] = "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"
+# app.config['GOOGLE_CLIENT_ID'] = "731593533571-n0to7imjmop87i1t69tv6ogiu7d0qrkf.apps.googleusercontent.com"
+app.config['GOOGLE_CLIENT_ID'] = "514793907608-vh3imuof387umdjk6f2cc3700jer8b6g.apps.googleusercontent.com"
+# app.config['GOOGLE_CLIENT_SECRET'] = "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"
+app.config['GOOGLE_CLIENT_SECRET'] = "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"
 
 google = oauth.register(
     name = 'google',
